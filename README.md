@@ -55,7 +55,7 @@ Figure 6. MercadoLibre hourly stock close price plotted over time.
 Figure 7. MercadoLibre data for the first half of 2020 (from 2020-01 to 2020-06). Here, the hourly closing stock price and hourly search trend data is concatenated into two subplots for visual comparison of potential correlation.
 
 # MercadoLibre - Correlation Between Lagged Search Trends, Stock Volatility, & Hourly Stock Returns
-![image](https://github.com/dylan860/Forecasting_Net_Prophet/assets/127907809/439f2376-a8e7-454e-b77d-5e61d65baeee)
+![image](https://github.com/dylan860/Forecasting_Net_Prophet/assets/127907809/690d6442-d03b-4dd8-83d7-95791a3efd65)
 Figure 8. MercadoLibre table displaying relative correlation between stock volatility, lagged search trends, and hourly stock returns. Appears to be weak but present correlation between the hourly stock volatility & hourly stock returns.
 
 # MercadoLibre - Prophet Forecasted Search Trend Approximation for 2000 hrs out into the Future
