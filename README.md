@@ -1,4 +1,4 @@
-![image](https://github.com/dylan860/Forecasting_Net_Prophet/assets/127907809/9126bd04-e014-4b82-b78c-df978ab2d966)![image](https://github.com/dylan860/Forecasting_Net_Prophet/assets/127907809/8ee38264-6454-4ae9-8cec-5468089fbf3b)
+
 
 # Module-11-Challenge
 
