@@ -38,6 +38,64 @@ Figure 2. The monthly median search traffic across all months is calculated by c
 Figure 3. MercadoLibre search traffic displaying maximum search traffic volume during Tuesday's [*actually normalized to Monday's - see argument outlined below], followed by Wednesday in a decreasing trend as the week progresses.
 
 # MercadoLibre - Hour of Day vs Day of the Week Search Traffic Volume
+![image](https://github.com/dylan860/Forecasting_Net_Prophet/assets/127907809/9f64c393-8e3d-44e0-9c04-5f90461686bd)
+Figure 4. Hour of the day vs day of the week search traffic volume appears to indicate that Monday/Tuesday around 23:00hr-01:00hr are the busiest. However, when taking into consideration & converting the Seattle, WA based nominal UTC timestamp, this translates to an hourly shift around 9pm local Uruguay, Montevideo time (9pm local GMT-3 time, Monday). This makes more sense as customers/consumers are more likely to be shopping in the later hours of the evening on Monday, followed by Tuesday night. See below for a more detailed explanation on the local time shift rationale.
+
+# MercadoLibre - Average Search Traffic By Week of the Year
+![image](https://github.com/dylan860/Forecasting_Net_Prophet/assets/127907809/3a527abf-1ae0-41e2-8d64-b1ff24c38661)
+Figure 5. The MercadoLibre hourly search traffic was then grouped by mean search traffic data for each week of the year using 'group_weekofyear' function & plotted, accordingly.
+
+# MercadoLibre - Hourly Closing Stock Price
+![image](https://github.com/dylan860/Forecasting_Net_Prophet/assets/127907809/762146f5-707e-4c87-8c85-e1b3dfde9123)
+Figure 6. MercadoLibre hourly stock close price plotted over time.
+
+# MercadoLibre - Hourly Closing Stock Price & Hourly Search Trend Concatenated
+![image](https://github.com/dylan860/Forecasting_Net_Prophet/assets/127907809/56c7a0c9-1e21-473f-8786-c11571a35eff)
+![image](https://github.com/dylan860/Forecasting_Net_Prophet/assets/127907809/aea95c43-f465-4490-8d3f-423a7a4baa0f)
+Figure 7. MercadoLibre data for the first half of 2020 (from 2020-01 to 2020-06). Here, the hourly closing stock price and hourly search trend data is concatenated into two subplots for visual comparison of potential correlation.
+
+# MercadoLibre - Correlation Between Lagged Search Trends, Stock Volatility, & Hourly Stock Returns
+![image](https://github.com/dylan860/Forecasting_Net_Prophet/assets/127907809/439f2376-a8e7-454e-b77d-5e61d65baeee)
+Figure 8. MercadoLibre table displaying relative correlation between stock volatility, lagged search trends, and hourly stock returns. Appears to be weak but present correlation between the hourly stock volatility & hourly stock returns.
+
+# MercadoLibre - Prophet Forecasted Search Trend Approximation for 2000 hrs out into the Future
+![image](https://github.com/dylan860/Forecasting_Net_Prophet/assets/127907809/84c731f4-91b2-4138-8639-1fa70c34e9cd)
+Figure 9. MercadoLibre chart displaying Prophet forecasted search trend approximation.
+
+# MercadoLibre - Plot Components Utilized to Visualize the Forecast Results
+![image](https://github.com/dylan860/Forecasting_Net_Prophet/assets/127907809/69f531b1-be76-448e-8d3a-74a35479d243)
+Figure 10. MercadoLibre plot components charts displaying overall search trend data, day of week trends, day of year and hour of day trends. Note, the time of the day that exhibits the greatest popularity is 00:00:00. Now, if this timestamp is calibrated to the base UTC time, it would equate to approximately 17:00:00 (5pm GMT-7, Seattle) time. The reason I equate it to Seattle time is because a search of Mercadolibre's central server location results in a server IP located in Seattle, WA, USA (AWS Server (Amazon-CF Network). Converting this to local Montevideo, Uruguay time this then becomes 21:00:00 (9pm local GMT-3 time) Montevideo time. This makes more rationale sense, as most MercadoLibre's residences in an around latin America would shop between the longitudinal time zones of South America (between UTC/GMT-5 to UTC/GMT-3 (arguably UTC-2)).
+
+# MercadoLibre - Sales Revenue (Historical)
+![image](https://github.com/dylan860/Forecasting_Net_Prophet/assets/127907809/a691a894-9e48-4e92-98a3-12b5cfc08e8d)
+Figure 11. Historical sales data for MercadoLibre (in millions USD).
+
+# MercadoLibre - Possible Future Sales Projections Using Prophet Modeling
+![image](https://github.com/dylan860/Forecasting_Net_Prophet/assets/127907809/efa68539-7f44-4140-b545-f9521f60b39a)
+![image](https://github.com/dylan860/Forecasting_Net_Prophet/assets/127907809/4c08518e-fb29-4e7a-9607-61b1c32e899a)
+Figure 12. Predictions for probable upcoming future sales revenue for MercadoLibre using the Prophet model prediction toolkit (in millions USD) Based on the forecast information generated above, the sales revenue forecast for the following quarter is expected to be 969.61M (USD) with a worst case scenario of 887.91M (USD), and a best-case top forecast revenue of 1,050.94M (USD).
+
+# Accompanying File(s)
+*Note: Refer to the google_hourly_search_trends.csv, mercado_daily_revenue.csv, and mercado_stock_price.csv files located within the applicable Resources folder for raw .csv data.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
