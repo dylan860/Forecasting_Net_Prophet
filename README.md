@@ -73,7 +73,7 @@ Figure 11. Historical sales data for MercadoLibre (in millions USD).
 # MercadoLibre - Possible Future Sales Projections Using Prophet Modeling
 ![image](https://github.com/dylan860/Forecasting_Net_Prophet/assets/127907809/efa68539-7f44-4140-b545-f9521f60b39a)
 ![image](https://github.com/dylan860/Forecasting_Net_Prophet/assets/127907809/4c08518e-fb29-4e7a-9607-61b1c32e899a)
-Figure 12. Predictions for probable upcoming future sales revenue for MercadoLibre using the Prophet model prediction toolkit (in millions USD) Based on the forecast information generated above, the sales revenue forecast for the following quarter is expected to be 969.61M (USD) with a worst case scenario of 887.91M (USD), and a best-case top forecast revenue of 1,050.94M (USD).
+Figure 12. Predictions for probable upcoming future sales revenue for MercadoLibre using the Prophet model prediction toolkit (in millions USD) Based on the forecast information generated above, the sales revenue forecast for the following quarter is expected to be 969.61M (USD) with a worst case scenario of 887.33M (USD), and a best-case top forecast revenue of 1,050.79M (USD).
 
 # Accompanying File(s)
 *Note: Refer to the google_hourly_search_trends.csv, mercado_daily_revenue.csv, and mercado_stock_price.csv files located within the applicable Resources folder for raw .csv data.
