@@ -38,11 +38,11 @@ Figure 2. The monthly median search traffic across all months is calculated by c
 Figure 3. MercadoLibre search traffic displaying maximum search traffic volume during Tuesday's [*actually normalized to Monday's - see argument outlined below], followed by Wednesday in a decreasing trend as the week progresses.
 
 # MercadoLibre - Hour of Day vs Day of the Week Search Traffic Volume
-![image](https://github.com/dylan860/Forecasting_Net_Prophet/assets/127907809/9f64c393-8e3d-44e0-9c04-5f90461686bd)
+![image](https://github.com/dylan860/Forecasting_Net_Prophet/assets/127907809/53aae9c0-dd3d-47f5-8c49-8eb9d3a23499)
 Figure 4. Hour of the day vs day of the week search traffic volume appears to indicate that Monday/Tuesday around 23:00hr-01:00hr are the busiest. However, when taking into consideration & converting the Seattle, WA based nominal UTC timestamp, this translates to an hourly shift around 9pm local Uruguay, Montevideo time (9pm local GMT-3 time, Monday). This makes more sense as customers/consumers are more likely to be shopping in the later hours of the evening on Monday, followed by Tuesday night. See below for a more detailed explanation on the local time shift rationale.
 
 # MercadoLibre - Average Search Traffic By Week of the Year
-![image](https://github.com/dylan860/Forecasting_Net_Prophet/assets/127907809/3a527abf-1ae0-41e2-8d64-b1ff24c38661)
+![image](https://github.com/dylan860/Forecasting_Net_Prophet/assets/127907809/40504bd9-16e1-4e4c-a22a-4dd08bee7b29)
 Figure 5. The MercadoLibre hourly search traffic was then grouped by mean search traffic data for each week of the year using 'group_weekofyear' function & plotted, accordingly.
 
 # MercadoLibre - Hourly Closing Stock Price
